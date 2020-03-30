@@ -1,7 +1,5 @@
-// From the software distribution accompanying the textbook
-// "A Practical Introduction to Data Structures and Algorithm Analysis,
-// Third Edition (C++)" by Clifford A. Shaffer.
-// Source code Copyright (C) 2007-2011 by Clifford A. Shaffer.
+// Trimigno Giuseppe , Computer Engineering at Univeristy of Parma, Italy
+// Circular List Data Structure, a template class derived by class List
 
 // This is the file to include in your code if you want access to the
 // complete CList template class
@@ -13,10 +11,9 @@
 using namespace std;
 
 // First, get the declaration for the base list class
-#include "list.h"
-
-// Include linked node implementation
-#include "link.h"
+// and the link class
+#include "List_BaseClass.h"
+#include "Link_Class.h"
 
 inline void Assert(bool val, string s);
 

@@ -1,10 +1,11 @@
-// From the software distribution accompanying the textbook
-// "A Practical Introduction to Data Structures and Algorithm Analysis,
-// Third Edition (C++)" by Clifford A. Shaffer.
-// Source code Copyright (C) 2007-2011 by Clifford A. Shaffer.
+// Trimigno Giuseppe , Computer Engineering at Univeristy of Parma, Italy
+// Link class for Linked Data Structures like Linked Lists, Stacks and Queues
+
 
 #ifndef LINK_H
 #define LINK_H
+
+#include <cstddef>
 
 // Singly linked list node
 template <typename E> class Link {

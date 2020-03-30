@@ -1,7 +1,5 @@
-// From the software distribution accompanying the textbook
-// "A Practical Introduction to Data Structures and Algorithm Analysis,
-// Third Edition (C++)" by Clifford A. Shaffer.
-// Source code Copyright (C) 2007-2011 by Clifford A. Shaffer.
+// Trimigno Giuseppe , Computer Engineering at Univeristy of Parma, Italy
+// Doubly Linked List Data Structure, a template class derived by class List
 
 // This is the file to include in your code if you want access to the
 // complete DList template class
@@ -13,8 +11,8 @@
 using namespace std;
 
 // First, get the declaration for the base list class
-#include "list.h"
-#include "dlink.h"
+#include "List_BaseClass.h
+#include "DLink_Class.h
 
 inline void Assert(bool val, string s);
 

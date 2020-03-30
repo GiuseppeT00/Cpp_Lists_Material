@@ -1,10 +1,15 @@
+// Trimigno Giuseppe , Computer Engineering at Univeristy of Parma, Italy
+// Some interesting template functions for Lists Data Structures
+// that you can use to test a list, and make some programs
+
+
 #ifndef LIST_FUNCIONS_H
 #define LIST_FUNCIONS_H
 
-//#include "ArrayBased_List.h"
-//#include "LLinkedBased_List.h"
-#include "DLinkedBased_Class.h"
-//#include "CLinked_BasedClass.h"
+#include "Array_List.h"
+#include "SignlyLinked_List.h"
+#include "DoublyLinked_List.h"
+#include "Circular_List.h"
 #include <iostream>
 
 inline void Assert(bool exp, string s) {

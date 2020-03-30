@@ -1,12 +1,11 @@
-// From the software distribution accompanying the textbook
-// "A Practical Introduction to Data Structures and Algorithm Analysis,
-// Third Edition (C++)" by Clifford A. Shaffer.
-// Source code Copyright (C) 2007-2011 by Clifford A. Shaffer.
+// Trimigno Giuseppe , Computer Engineering at Univeristy of Parma, Italy
+// Doubly Linked class for DList Data Structure
+
 
 #ifndef DLINK_H
 #define DLINK_H
 
-// Singly linked list node
+// Doubly linked list node
 template <typename E> class dLink {
 public:
   E element;      // Value for this node
